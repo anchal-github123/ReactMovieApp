@@ -24,7 +24,7 @@ function Cards({movie}) {
       </Typography>
     </CardContent>
     <CardActions>
-    <NavLink to={`/movies/MovieDetails/${movie.imdbID}`}> <Button size="small">Watch NOw</Button></NavLink>
+    <NavLink to={`/movies/MovieDetails/${movie.imdbID}`} className=""> <Button size="small">Watch NOw</Button></NavLink>
    
      
     </CardActions>
